@@ -1,0 +1,181 @@
+ /*travaillons sur le header de notre html*/
+.header{
+  text-align:center;
+}
+/*le selecteur de langue*/
+.langue{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .langue select {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  .langue label {
+    font-family:'Roboto', sans-serif;
+  }
+/*l'arriere plan du head*/
+#backgroundimg{ 
+  background-image: url(bgimgheader3.jpeg);
+  background-size:900px;
+  background-position: justify;
+  background-repeat: none;
+}
+/*la barre de audio*/
+.audio{
+  display:left;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999; 
+}
+/******************************************************************************************/
+
+/*la barre de navigation*/
+.nav {
+ 
+  text-align: center;
+  background-color:rgb(99, 99, 255);
+  color:rgb(92, 92, 240);
+  font-size: 20px;
+} 
+/* les boutons de navigation au passage du curseur*/
+.nav a:hover{
+color:white;
+background-color:blueviolet ;
+}
+
+.nav li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30;
+  display:inline;
+}
+
+/* Style de base pour la barre de recherche*/ 
+nav form 
+{ display:inline-flex; 
+  align-items : center ; 
+}
+/* Style du champ de recherche */ 
+nav input[type="text"] { 
+  border: none; 
+  border-radius: 0,5 rem ; 
+  padding: 0,5 rem ;
+  font-family:'Roboto', sans-serif; ; 
+  font-size : 1rem ; 
+  background-color : #f0f0f0 ; 
+  flex: 1 ; 
+}
+
+/* Style du bouton de soumission */
+nav button[type="submit"] {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  font-family:'Roboto', sans-serif; ;
+  background-color: #0077cc;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Style du bouton de soumission au passage du curseur */
+nav button[type="submit"]:hover {
+  background-color:rgb(134, 214, 14);
+}
+/******************************************************************************************/
+
+/*la premiere section*/
+
+.section1 h3,p{
+  font-family: 'Roboto', sans-serif;
+}
+/*le tableau de la premiere section*/
+.table1 {
+  border: none;
+}
+/*la deuxieme section*/
+.section h1{
+  font-family: 'Roboto', sans-serif;
+}
+/*le tableau de la deuxieme section*/
+.table2{
+  border: none;
+  height: 300px;
+}
+/*la troisieme section*/
+.section3 p {
+  font-family: 'Roboto', sans-serif;
+  background-color:rgb(158, 154, 154);
+  width: 1000px;
+  display:inline-block;
+}
+/*le tableau de la troisieme section*/
+.table3 {
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  background-color:gainsboro;
+}
+/*mon formulaire*/
+.form1 {
+  max-width:200px;
+  margin:  auto;
+  font-family:'Roboto', sans-serif; ;
+}
+
+/*les champs du formulaire*/
+.form1 label {
+  display:flex;
+  
+}
+/*les champs de saisie*/
+.form1 input[type="text"],
+input[type="email"],input[type="date"],input[type="file"],
+textarea {
+  width:300px;
+  height:10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+/*le curseur d'envoi*/
+.form1 input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*lorsque le curseur survol le bouton d'envoi*/
+.form1 input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/*notre quatrieme section*/
+.section4 {
+  font-family: 'Roboto', sans-serif;
+}
+/*le tableau de notre quatrieme section*/
+.table4{
+  border: none;
+}
+/*les likes*/
+td.like {
+  cursor: pointer;
+}
+/*notre footer*/
+.marquee{
+  font-family: 'Roboto', sans-serif;
+}

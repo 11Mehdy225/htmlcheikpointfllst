@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <haed>
+        <title>cheickpoint HTML</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" type="">
+        <!--la police roboto via line google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    </haed>
+    <body>
+        <header class="header"  id="backgroundimg"><!--ce header contient logo  la structure le son de bienvenu -->
+            <!--logo entreprise et son de bienvenue-->
+            <img src="white1.jpg" alt="white" height="150" width="250"> 
+            <form class="langue">
+                <label for="langue"></label>
+                <select id="langue" name="langue">
+                  <option value="fr">Français</option>
+                  <option value="en">Anglais</option>
+                  <option value="es">Espagnol</option>
+                  <option value="de">Allemand</option>
+                </select>
+              </form>
+            
+            <br/>
+            <audio class="audio" controls>
+                <source src="Rue.m4a" type="audio/mpeg"> 
+            </audio>
+        </header>
+        <!--barre de navigation dans une liste ordonée-->
+      <nav class="nav">
+        <ul style="list-style-type:none;">
+            <li> <a href="">ACCUEIL</a></li>
+            <li> <a href="">NOS DOMAINES </a></li>
+            <li> <a href="">NOS REALISATION</a></li>
+            <li> <a href="">ACTUALITES</a></li>
+            <li> 
+                <form  action="/recherche" method="get"> 
+                    <input type="text" name="q" style="font-family: 'Roboto', sans-serif;"placeholder="Rechercher..."> <!--barre de recherche-->
+                    <button style="font-family: 'Roboto', sans-serif;"  type="submit"> Rechercher</button> </form> 
+            </li> 
+            
+        </ul>
+    </nav>
+    <!--notre premiere section-->
+    <section  class="section1" style="text-align: center;">
+        <!--ce tableau contient 1 ligne et 2 colonne carte afrique et about-->
+        <table class="table1" align="center"  width="700" >
+           <tr>
+               <td width="350"> 
+                <img src="i0.jpg" width="100%">
+               </td>
+                <td> <h3>About</h3>
+                <p> L'Afrique continue d'être à la traîne des autres régions sur les questions d'accès, de coût et d'usage des TIC. 
+                    Pour assurer sa transformation digitale et réussir systématiquement ses projets IT, les décideurs doivent mettre 
+                    en place des mécanismes de gouvernance appropriés. </p> 
+                </td>
+           </tr>
+        </table>
+     </section>
+     <br/>
+     <br/>
+     <!--notre deuxieme section-->
+     <section class="section2" style="text-align: center;">
+        <!--ce tableau contient 2 lignes dont la deuxieme à  3 colonne pour les competences-->
+        <table class="table2" align="center"  width="900" >
+            <tr><h1>skills</h1></tr>
+           <tr>
+               <td width="300" height="300"><img src="i1.jpg" width="300" height="200"></td>
+                <td width="300" height="300"><img src="i2.JPG" width="300" height="200"></td>
+                <td width="300" height="300"><img src="i4.jpeg" width="300" height="200"></td>
+           </tr>
+        </table>
+     </section>
+     <br/>
+     <br/>
+     <!--notre troisieme section-->
+      <section class="section3 "style="text-align: center;"> <!--cette section contient 1 tableau--> 
+        <!--tableau de 1 ligne 2colonnes-->
+         <table class="table3" align="center"  width="700" >
+            <tr>
+                <!--colonne 1 qui contient une brievre presentation de la structure-->
+                <td width="200">
+                    <i>le but de ce cheickpoint est de pouvoir utiliser les balises du coup je ne dirai 
+                        rien de plus desole .</i>
+                </td>
+                <!--colonne 2 qui contient le formulaire-->
+                 <td height="300">
+                    <!--formulaire d'inscription-->
+                   <form class="form1">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom">
+                      <label for="prenom">Prenom :</label>
+                      <input type="text" id="prenom" name="prenom">
+                      <label for="email ">E-mail :</label>
+                      <input type="email" id="email" name="email">
+                      <label for="date_de_naissance">Date de naissance :</label>
+                      <input type ="date" id="date_de_naissance" name="date_de_naissance">
+                      <label for="description">Décrivez-vous :</label>
+                      <textarea id="description" name="description" rows="5"></textarea>
+                      <label for="pdf">votre cv:</label> 
+                      <input type="file" id="pdf" name="pdf" accept="application/pdf">
+                      <input type="submit" value="Envoyer">
+                    </form>   
+                 </td>
+            </tr>
+         </table>
+      </section>
+      <br/>
+      <br/>
+      <!--notre quatrieme section-->
+      <section class="section4" style="text-align: center;"><!--cette section contient 1 tableau  --> 
+        <!--ce tableau contient 1 ligne et 1 colonne-->
+         <table class="table4" align="center"  width="700" >
+            <tr>
+                <td width="600"> <h3>que voulez vous savoir? apres trois ans loin de tout ce qui est informatique
+            ca fait vraiment plaisir de retrouver tout ces codes il est 06h27 le 30/05/2023 et je peux dire que je viens
+            de finir mon cheickpoint , bon a vrai dit il n'est pas si magnifique mais j'ai eu le rendu que je voulais 
+            restez focus pour la suite . Mettez les coeurs
+                </h3></td>
+                <td><img style="border-radius: 50%;" src="W.jpeg" width="300" height="200"></td>
+                <tr>
+                    <td class="like" onclick="incrementLikes()">👍 <span id="likes">0</span></td>
+                  </tr>
+            </tr>
+         </table>
+      </section>
+      <footer style="text-align: center;">
+        <marquee class="marquee">
+            developpeur Loic Mehdy KONAN copyright - nov 2023 Abidjan Cote d'Ivoire
+        </marquee>
+    </footer>
+    </body>
