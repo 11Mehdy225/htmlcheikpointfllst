@@ -27,22 +27,22 @@
             <audio class="audio" controls>
                 <source src="Rue.m4a" type="audio/mpeg"> 
             </audio>
-        </header>
-        <!--barre de navigation dans une liste ordonée-->
-      <nav class="nav">
-        <ul style="list-style-type:none;">
-            <li> <a href="">ACCUEIL</a></li>
-            <li> <a href="">NOS DOMAINES </a></li>
-            <li> <a href="">NOS REALISATION</a></li>
-            <li> <a href="">ACTUALITES</a></li>
-            <li> 
-                <form  action="/recherche" method="get"> 
+            <!--barre de navigation dans une liste ordonée-->
+            <nav class="nav">
+             <ul style="list-style-type:none;">
+                <li> <a href="">ACCUEIL</a></li>
+                <li> <a href="">NOS DOMAINES </a></li>
+                <li> <a href="">NOS REALISATION</a></li>
+                <li> <a href="">ACTUALITES</a></li>
+                <li> 
+                    <form  action="/recherche" method="get"> 
                     <input type="text" name="q" style="font-family: 'Roboto', sans-serif;"placeholder="Rechercher..."> <!--barre de recherche-->
                     <button style="font-family: 'Roboto', sans-serif;"  type="submit"> Rechercher</button> </form> 
-            </li> 
-            
-        </ul>
-    </nav>
+             </li> 
+            </ul>
+         </nav>
+    </header>
+    <main>
     <!--notre premiere section-->
     <section  class="section1" style="text-align: center;">
         <!--ce tableau contient 1 ligne et 2 colonne carte afrique et about-->
@@ -126,9 +126,12 @@
             </tr>
          </table>
       </section>
+      </main>
       <footer style="text-align: center;">
         <marquee class="marquee">
             developpeur Loic Mehdy KONAN copyright - nov 2023 Abidjan Cote d'Ivoire
         </marquee>
     </footer>
     </body>
+    
+</html>
