@@ -22,7 +22,7 @@
   }
 /*l'arriere plan du head*/
 #backgroundimg{ 
-  background-image: url(bgimgheader3.jpeg);
+  background-image: url(/image/bgimgheader3.jpeg);
   background-size:900px;
   background-position: justify;
   background-repeat: none;
